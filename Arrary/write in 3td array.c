@@ -6,14 +6,14 @@ int main()
 	printf("enter the first array\n");
 	for(i=0;i<5;i++)
 	
-	scanf("%d",a[i]);
+	scanf("%d",&a[i]);
 	printf("enter the second array\n");
 	for(i=0;i<5;i++)
 	
-	scanf("%d",b[i]);
+	scanf("%d",&b[i]);
 	for(i=0;i<5;i++){
 		c[i]=a[i]+b[i];
-		printf("%d",c[i]);
+		printf("%d ",c[i]);
 	}
 	return 0;
 }
